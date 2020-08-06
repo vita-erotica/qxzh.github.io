@@ -3,6 +3,8 @@ name: ci
 on:
   push:
     branches: src
+  pull_request:
+    branches: src
 
 jobs:
   build:
